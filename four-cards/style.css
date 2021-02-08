@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: #fafafa;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+main {
+  max-width: 1440px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 200;
+  color: #4c4e61;
+}
+
+main h1 span {
+  display: block;
+  font-weight: 600;
+}
+
+main p {
+  max-width: calc(1440px/2);
+  margin-left: auto;
+  margin-right: auto;
+  color: #a3a5ae;
+}
+
+article {
+  width: 25%;
+  height: 250px;
+  background: white;
+  text-align: left;
+  position: relative;
+  padding: 15px;
+  color: #a3a5ae;
+  padding-right: 30px;
+  border-top: 5px solid #ea5353;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 10px #a3a5ae;
+          box-shadow: 0px 5px 10px #a3a5ae;
+  display: inline-block;
+  margin: 15px;
+}
+
+article h2 {
+  color: #4c4e61;
+  margin-bottom: 5px;
+}
+
+article img {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+section article:nth-child(1) {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  border-top-color: #45d3d3;
+}
+
+section article:nth-child(3) {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  border-top-color: #549ef2;
+}
+
+section article:nth-child(4) {
+  border-top-color: #fcaf4a;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 30px;
+  }
+  section article:nth-child(1) {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  section article:nth-child(3) {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  section article {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  section article {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
